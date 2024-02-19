@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node app.js",
     "test": "cucumber-js -r ./src/test/steps/**/*.js --format progress ./src/test/features/**/*.feature"
