@@ -1,5 +1,5 @@
 // models/lowdb.js
-import { JSONFilePreset } from 'lowdb/node';
+const { JSONFilePreset } = require("lowdb/node");
 
 const defaultData = { sprints: [], teammates: [] };
 const db = JSONFilePreset('db.json', defaultData);
