@@ -1,2 +1,3 @@
-# stats-sprint
-Preview the stats of sprints (Agile)
+# sprint-velocity
+
+Preview the stats and velocity of sprints (Agile)
