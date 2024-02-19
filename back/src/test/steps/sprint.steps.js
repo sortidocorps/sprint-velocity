@@ -1,6 +1,11 @@
-import { Given, When, Then } from 'cucumber';
-import { expect } from 'chai';
-import { createSprint, getSprints, updateSprintData, deleteSprintData } from '../../controllers/sprintController';
+const { Given, When, Then } = require("cucumber");
+const { expect } = require("chai");
+const {
+  createSprint,
+  getSprints,
+  updateSprintData,
+  deleteSprintData,
+} = require("../../controllers/sprintController");
 
 let createdSprint;
 
