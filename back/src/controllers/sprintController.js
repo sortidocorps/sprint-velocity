@@ -1,5 +1,5 @@
 // controllers/sprintController.js
-import { addSprint, updateSprint, deleteSprint } from '../models/lowdb.js';
+const { addSprint, updateSprint, deleteSprint } = require("../models/lowdb.js");
 
 const createSprint = async (sprintData) => {
     try {
