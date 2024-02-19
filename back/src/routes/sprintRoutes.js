@@ -1,7 +1,10 @@
 // routes/sprintRoutes.js
-import express from 'express';
+const express = require("express");
 const router = express.Router();
-import { createSprint, getSprints } from '../controllers/sprintController.js';
+const {
+  createSprint,
+  getSprints,
+} = require("../controllers/sprintController.js");
 
 router.post('/', async (req, res) => {
     try {
