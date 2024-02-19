@@ -1,10 +1,10 @@
 // app.js
-import express from 'express';
+const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Import route handlers
-import sprintRoutes from './src/routes/sprintRoutes.js';
+const sprintRoutes = require("./src/routes/sprintRoutes.js");
 // import teammateRoutes from './src/routes/teammateRoutes.js';
 
 // Use JSON middleware
