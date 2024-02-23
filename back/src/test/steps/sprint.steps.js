@@ -1,10 +1,10 @@
 const { Given, When, Then } = require("cucumber");
 const { expect } = require("chai");
 const {
-  createSprint,
-  getSprints,
-  updateSprintData,
-  deleteSprintData,
+    createSprint,
+    getSprints,
+    updateSprintData,
+    deleteSprintData,
 } = require("../../controllers/sprintController");
 
 let createdSprint;
@@ -40,7 +40,7 @@ Then('the response should contain a list of sprints', function () {
 Given('there is an existing sprint with sprintNumber {int}', async function (sprintNumber) {
     // Create a sample sprint for testing
     await createSprint({
-        sprintNumber,
+        sprintNumber: parseInt(sprintNumber),
         date: '2024-01-30T12:00:00Z',
         capacity: 10,
         velocity: 0,

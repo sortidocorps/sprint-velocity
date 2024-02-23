@@ -3,6 +3,7 @@ const { addSprint, updateSprint, deleteSprint } = require("../models/lowdb.js");
 
 const createSprint = async (sprintData) => {
     try {
+        console.log("createSprint")
         // Assuming sprintData is an object containing necessary sprint information
         addSprint(sprintData);
         return sprintData;
@@ -40,4 +41,4 @@ const deleteSprintData = async (sprintNumber) => {
     }
 };
 
-module.export = { createSprint, getSprints, updateSprintData, deleteSprintData };
+module.exports = { createSprint, getSprints, updateSprintData, deleteSprintData };

@@ -1,0 +1,32 @@
+{
+  "sprints": [
+    {
+      "sprintNumber": "1",
+      "date": "2024-01-30T12:00:00Z",
+      "capacity": "10",
+      "velocity": "0",
+      "completed": "0",
+      "completion": "0",
+      "velocityCapacityAvg": "0"
+    },
+    {
+      "sprintNumber": 2,
+      "date": "2024-01-30T12:00:00Z",
+      "capacity": 10,
+      "velocity": 0,
+      "completed": 0,
+      "completion": 0,
+      "velocityCapacityAvg": 0
+    },
+    {
+      "sprintNumber": 1,
+      "date": "2024-01-30T12:00:00Z",
+      "capacity": 10,
+      "velocity": 0,
+      "completed": 0,
+      "completion": 0,
+      "velocityCapacityAvg": 0
+    }
+  ],
+  "teammates": []
+}
