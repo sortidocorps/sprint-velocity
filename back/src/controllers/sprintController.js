@@ -40,4 +40,4 @@ const deleteSprintData = async (sprintNumber) => {
     }
 };
 
-export { createSprint, getSprints, updateSprintData, deleteSprintData };
+module.export = { createSprint, getSprints, updateSprintData, deleteSprintData };

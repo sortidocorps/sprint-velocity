@@ -26,4 +26,4 @@ router.get('/', async (req, res) => {
 
 // Similar route handling for teammates
 
-export default router;
+module.export = router;

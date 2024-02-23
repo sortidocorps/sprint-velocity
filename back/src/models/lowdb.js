@@ -23,4 +23,4 @@ const deleteSprint = (sprintNumber) => {
 };
 
 // Export the db instance and methods
-export { db, addSprint, updateSprint, deleteSprint };
+module.export = { db, addSprint, updateSprint, deleteSprint };
